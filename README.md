@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Prompt Leakage Probing** project provides a framework for testing Large Language Model (LLM) agents for their susceptibility to system prompt leaks, it was implemented using [FastAgency](https://fastagency.ai/latest/) and [AutoGen](https://ag2.ai/). It currently implements two attack strategies:
+The **Prompt Leakage Probing** project provides a framework for testing Large Language Model (LLM) agents for their susceptibility to system prompt leaks, it was implemented using [FastAgency](https://fastagency.ai/latest/) and [AG2](https://ag2.ai/). It currently implements two attack strategies:
 
 1. **Simple Attack**: Uses `PromptGeneratorAgent` and `PromptLeakageClassifierAgent` to attempt prompt extraction.
 2. **Base64 Attack**: Enables `PromptGeneratorAgent` to encode sensitive parts of the prompt in Base64 to bypass sensitive prompt detection.
