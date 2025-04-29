@@ -22,7 +22,13 @@ Additionally, ensure that your `OPENAI_API_KEY` is exported to your environment.
 Clone the repository and install the dependencies:
 
 ```bash
-pip install ."[dev]"
+pip install -e ".[dev]"
+```
+
+or using the setup.sh script:
+
+```bash
+./scripts/setup.sh
 ```
 
 ### 2. Run the Project Locally
